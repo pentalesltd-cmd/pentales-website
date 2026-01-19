@@ -1,5 +1,9 @@
 {
   "version": 2,
-  "rewrites": [ ... ],
-  "redirects": [ ... ]
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
