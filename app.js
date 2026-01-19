@@ -1,5 +1,6 @@
 import React from 'react';
 import { Hammer, Tractor, BookOpen, Settings, Phone, MapPin } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const PentalesWebsite = () => {
   return (
@@ -92,6 +93,7 @@ const PentalesWebsite = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
